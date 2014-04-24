@@ -1,7 +1,7 @@
-package com.example.locationreminder;
+package com.example.locationreminder;  // Import the files 
 
-import android.content.Context;
-import android.net.ConnectivityManager;
+import android.content.Context;		// import the second file
+import android.net.ConnectivityManager;		// import the third file
 import android.net.NetworkInfo;
  
 public class ConnectionDetector {
