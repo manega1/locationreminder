@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <EditText 
+        android:id="@+id/num"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:phoneNumber="true"
+        android:hint="Regsitered Number"
+        />
+    
+    <EditText 
+        android:id="@+id/per"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:phoneNumber="true"
+        android:hint="Battery Percentage"
+        />
+    
+    <Button 
+        android:id="@+id/save"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:hint="Save Details"
+        />
+     <Button 
+        android:id="@+id/stop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:hint="Unregister"
+        />
+    
+
+</LinearLayout>
